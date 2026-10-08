@@ -1,0 +1,392 @@
+{
+  "blue-mosque": {
+    "status": "free",
+    "label": "Free mosque entry; visitor hours depend on prayers.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "basilica-cistern": {
+    "status": "unavailable",
+    "label": "Daytime foreign adult ticket · price not verified",
+    "sourceUrl": "https://yerebatan.com/en/",
+    "checkedAt": "2026-10-08T11:24:11.295Z",
+    "error": "The official source could not be reached (HTTP 503)."
+  },
+  "hagia-sophia": {
+    "status": "unavailable",
+    "label": "Foreign visitor gallery · price not verified",
+    "sourceUrl": "https://muze.gov.tr/",
+    "checkedAt": "2026-10-08T11:24:11.313Z",
+    "error": "A current official adult tariff could not be verified for this venue."
+  },
+  "topkapi-palace": {
+    "status": "verified",
+    "amount": 2750,
+    "currency": "TRY",
+    "label": "Foreign adult · palace, Hagia Irene & Harem",
+    "sourceUrl": "https://www.millisaraylar.gov.tr/Lokasyon/2/topkapi-sarayi",
+    "checkedAt": "2026-10-08T11:24:11.314Z",
+    "verifiedAt": "2026-10-08T11:24:11.314Z"
+  },
+  "grand-bazaar": {
+    "status": "free",
+    "label": "Free to browse; shopping is optional.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "hippodrome": {
+    "status": "free",
+    "label": "Free public square.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "gulhane-park": {
+    "status": "free",
+    "label": "Free public park; observe posted opening hours.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "archaeology-museums": {
+    "status": "verified",
+    "amount": 15,
+    "currency": "EUR",
+    "label": "Standard foreign visitor · archaeology museums",
+    "sourceUrl": "https://muze.gov.tr/ETicket",
+    "checkedAt": "2026-10-08T11:31:34.829Z",
+    "verifiedAt": "2026-10-08T11:31:34.829Z"
+  },
+  "spice-bazaar": {
+    "status": "free",
+    "label": "Free to browse; holiday hours can vary.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "galata-bridge": {
+    "status": "free",
+    "label": "Free pedestrian crossing.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "karakoy": {
+    "status": "free",
+    "label": "Free area walk; food and drinks are extra.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "galata-tower": {
+    "status": "verified",
+    "amount": 30,
+    "currency": "EUR",
+    "label": "Standard foreign visitor · Galata Tower; excludes resident night-ticket offers",
+    "sourceUrl": "https://muze.gov.tr/ETicket",
+    "checkedAt": "2026-10-08T11:31:34.847Z",
+    "verifiedAt": "2026-10-08T11:31:34.847Z"
+  },
+  "istiklal": {
+    "status": "free",
+    "label": "Free street walk; tram rides cost extra.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "pera-museum": {
+    "status": "verified",
+    "amount": 450,
+    "currency": "TRY",
+    "label": "Full adult museum ticket",
+    "sourceUrl": "https://www.peramuseum.org/Home/Visit",
+    "checkedAt": "2026-10-08T11:24:11.317Z",
+    "verifiedAt": "2026-10-08T11:24:11.317Z"
+  },
+  "taksim-square": {
+    "status": "free",
+    "label": "Free public square.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "istanbul-modern": {
+    "status": "verified",
+    "amount": 1000,
+    "currency": "TRY",
+    "label": "Regular adult · non-resident museum ticket",
+    "sourceUrl": "https://www.istanbulmodern.org/en/visit/museum",
+    "checkedAt": "2026-10-08T11:24:11.319Z",
+    "verifiedAt": "2026-10-08T11:24:11.319Z"
+  },
+  "kadikoy-market": {
+    "status": "free",
+    "label": "Free area walk; food purchases are extra.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "bahariye-street": {
+    "status": "free",
+    "label": "Free street walk.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "moda": {
+    "status": "free",
+    "label": "Free area walk; café stops are extra.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "sureyya-opera": {
+    "status": "free",
+    "label": "Free exterior view; performances require a ticket.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "moda-pier": {
+    "status": "free",
+    "label": "Free waterfront access.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "fenerbahce-park": {
+    "status": "free",
+    "label": "Free public park.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "haydarpasa-viewpoint": {
+    "status": "free",
+    "label": "Free exterior viewpoint.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "yogurtcu-park": {
+    "status": "free",
+    "label": "Free public park.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "dolmabahce-palace": {
+    "status": "verified",
+    "amount": 2000,
+    "currency": "TRY",
+    "label": "Foreign adult · Selamlık, Harem & Painting Museum",
+    "sourceUrl": "https://www.millisaraylar.gov.tr/Lokasyon/3/dolmabahce-sarayi",
+    "checkedAt": "2026-10-08T11:24:11.320Z",
+    "verifiedAt": "2026-10-08T11:24:11.320Z"
+  },
+  "besiktas-market": {
+    "status": "free",
+    "label": "Free area walk; meals are extra.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "yildiz-park": {
+    "status": "free",
+    "label": "Free public park; cafés charge separately.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "ortakoy": {
+    "status": "free",
+    "label": "Free public waterfront; food is extra.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "arnavutkoy": {
+    "status": "free",
+    "label": "Free public street walk.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "bebek-park": {
+    "status": "free",
+    "label": "Free public park.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "rumeli-fortress-view": {
+    "status": "free",
+    "label": "Free exterior view; any available interior entry is separate.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "naval-museum": {
+    "status": "unavailable",
+    "label": "Adult museum ticket · price not verified",
+    "sourceUrl": "https://denizmuzesi.dzkk.tsk.tr/",
+    "checkedAt": "2026-10-08T11:24:11.320Z",
+    "error": "fetch failed"
+  },
+  "chora-mosque": {
+    "status": "unavailable",
+    "label": "Sightseeing visitor ticket · price not verified",
+    "sourceUrl": "https://muze.gov.tr/",
+    "checkedAt": "2026-10-08T11:24:11.321Z",
+    "error": "A current official adult tariff could not be verified for this venue."
+  },
+  "balat": {
+    "status": "free",
+    "label": "Free area walk; café stops are extra.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "fener": {
+    "status": "free",
+    "label": "Free neighbourhood walk; private buildings are not included.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "suleymaniye": {
+    "status": "free",
+    "label": "Free mosque entry; visitor access pauses during prayers.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "rahmi-koc-museum": {
+    "status": "unavailable",
+    "label": "Adult museum ticket · price not verified",
+    "sourceUrl": "https://www.rmk-museum.org.tr/",
+    "checkedAt": "2026-10-08T11:24:11.322Z",
+    "error": "A current official adult tariff could not be verified for this venue."
+  },
+  "pierre-loti": {
+    "status": "free",
+    "label": "Free viewpoint; cable car and cafés are extra.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "eyup-sultan-mosque": {
+    "status": "free",
+    "label": "Free mosque entry; access depends on prayers.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "uskudar-waterfront": {
+    "status": "free",
+    "label": "Free public waterfront.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "mihrimah-sultan-mosque": {
+    "status": "free",
+    "label": "Free mosque entry; access depends on prayers.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "kuzguncuk": {
+    "status": "free",
+    "label": "Free area walk; food and drinks are extra.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "beylerbeyi-palace": {
+    "status": "verified",
+    "amount": 800,
+    "currency": "TRY",
+    "label": "Foreign adult · palace admission",
+    "sourceUrl": "https://www.millisaraylar.gov.tr/Lokasyon/4/beylerbeyi-sarayi",
+    "checkedAt": "2026-10-08T11:24:11.323Z",
+    "verifiedAt": "2026-10-08T11:24:11.323Z"
+  },
+  "salacak": {
+    "status": "free",
+    "label": "Free mainland viewpoint; tower boat and ticket are separate.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "fethi-pasa-grove": {
+    "status": "free",
+    "label": "Free public park; cafés are extra.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "valide-atikk": {
+    "status": "free",
+    "label": "Free mosque entry; access depends on prayers.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "buyukada-pier": {
+    "status": "free",
+    "label": "Free area walk; ferry travel is extra.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "buyukada-mansions": {
+    "status": "free",
+    "label": "Free public street walk.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "buyukada-waterfront": {
+    "status": "free",
+    "label": "Free waterfront walk; lunch is extra.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "dilburnu": {
+    "status": "unavailable",
+    "label": "Nature-park admission · price not verified",
+    "sourceUrl": "https://www.tarimorman.gov.tr/DKMP/",
+    "checkedAt": "2026-10-08T11:24:11.324Z",
+    "error": "A current official adult tariff could not be verified for this venue."
+  },
+  "aya-yorgi": {
+    "status": "unavailable",
+    "label": "Viewpoint walk is free; church visitor access can vary.",
+    "sourceUrl": "https://muze.gov.tr/"
+  },
+  "sultanahmet-square": {
+    "status": "free",
+    "label": "Free public square; no interior entry included.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "sirkeci-waterfront": {
+    "status": "free",
+    "label": "Free public waterfront.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  },
+  "balat-waterfront": {
+    "status": "free",
+    "label": "Free public waterfront.",
+    "sourceUrl": "https://istanbul.goturkiye.com/",
+    "amount": 0,
+    "currency": "TRY"
+  }
+}

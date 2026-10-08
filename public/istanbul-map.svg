@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" preserveAspectRatio="none" role="img" aria-labelledby="map-title map-description">
+  <title id="map-title">Istanbul schematic offline map</title>
+  <desc id="map-description">An approximate geographic overview of Istanbul, with European and Asian shores, the Bosphorus, the Golden Horn, the Marmara Sea, and district labels. Decorative lines are not roads. This map is not suitable for street navigation.</desc>
+  <defs>
+    <!-- Geographic bounds: 40.94–41.15 N, 28.86–29.16 E.
+         District anchors use x=(longitude−28.86)/0.30×1000,
+         y=(41.15−latitude)/0.21×700. Coastlines are approximate. -->
+    <path id="europe" d="M0 0H650
+      C639 25 665 45 670 65 C686 79 712 82 707 101
+      C701 123 668 130 650 154 C655 175 672 195 657 216
+      C646 234 617 240 615 253 C606 269 632 274 617 289
+      C604 309 577 324 558 344
+      C529 351 510 359 486 369 C455 384 434 398 424 412
+      C413 415 406 418 395 421
+      C381 416 366 408 346 401 C326 396 313 386 301 378
+      C286 369 269 353 254 341 C258 322 266 305 275 288
+      C268 280 261 283 254 296 C250 315 253 331 248 344
+      C258 361 277 379 293 394 C313 408 341 425 361 432
+      C377 439 396 441 413 453 C421 465 413 484 399 493
+      C381 503 361 498 341 496 C324 497 310 501 291 506
+      C249 511 211 518 172 528 C137 539 103 550 67 562
+      C43 572 23 580 0 590Z"/>
+    <path id="asia" d="M735 0
+      C740 31 766 45 780 70 C787 94 755 115 746 133
+      C738 151 708 162 699 182 C698 206 686 234 666 250
+      C661 275 650 301 638 327 C615 349 594 355 588 360
+      C577 365 560 373 554 383 C535 395 523 400 511 415
+      C502 434 511 452 522 472
+      C531 491 535 511 543 525 C548 539 541 551 551 565
+      C565 579 586 582 590 590 C581 599 569 605 573 613
+      C592 623 618 624 642 632
+      C676 644 718 655 753 664 C807 681 867 687 934 700
+      H1000V0Z"/>
+    <clipPath id="land-clip">
+      <use href="#europe"/>
+      <use href="#asia"/>
+    </clipPath>
+    <!-- Fine dashed grid is decorative, with no routable road geometry. -->
+    <pattern id="neighborhood-grid" width="46" height="46" patternUnits="userSpaceOnUse" patternTransform="rotate(-16)">
+      <path d="M46 0H0V46" fill="none" stroke="#dedfce" stroke-width="1" stroke-dasharray="3 4"/>
+    </pattern>
+    <style>
+      .district{font-family:Arial,Helvetica,sans-serif;font-size:9px;font-weight:500;letter-spacing:.3px;fill:#687667;paint-order:stroke;stroke:#f2f2e5;stroke-width:2px;stroke-linejoin:round}
+      .water-label{font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:3px;fill:#749ca3}
+      .small{font-family:Arial,Helvetica,sans-serif;font-size:8px;letter-spacing:2px;fill:#8b9684}
+      .anchor{fill:#87917d;stroke:#f2f2e5;stroke-width:2px}
+      .leader{fill:none;stroke:#9ba493;stroke-width:1.1px;stroke-dasharray:2 3}
+    </style>
+  </defs>
+
+  <rect width="1000" height="700" fill="#c6dce0"/>
+  <use href="#europe" fill="#f2f2e5" stroke="#afc9c6" stroke-width="2"/>
+  <use href="#asia" fill="#f2f2e5" stroke="#afc9c6" stroke-width="2"/>
+
+  <g clip-path="url(#land-clip)">
+    <rect width="1000" height="700" fill="url(#neighborhood-grid)" opacity=".64"/>
+    <!-- Soft green patches indicate urban greenery, not park boundaries. -->
+    <path d="M60 40C112 21 157 50 182 86S167 175 117 191S43 155 30 104S39 55 60 40Z" fill="#dce4cf" opacity=".88"/>
+    <path d="M415 168C450 151 482 175 495 205S476 253 453 246S403 208 415 168Z" fill="#dfe5d2"/>
+    <path d="M491 309C510 298 534 306 539 322S526 347 507 339S480 323 491 309Z" fill="#d7e1c9"/>
+    <path d="M426 344C438 335 456 340 460 354S448 375 435 366S414 353 426 344Z" fill="#d7e1c9"/>
+    <path d="M387 452C399 445 409 452 405 464S389 481 382 470Z" fill="#d6dfc7"/>
+    <path d="M835 37C884 16 928 47 933 84S897 149 851 131S803 74 835 37Z" fill="#dce4cf" opacity=".9"/>
+    <path d="M684 359C720 344 749 362 751 395S712 443 681 424S657 376 684 359Z" fill="#d9e3cc"/>
+    <path d="M592 373C609 362 628 373 628 390S610 410 594 400S580 381 592 373Z" fill="#d7e1c9"/>
+    <path d="M731 543C757 533 781 548 782 569S755 602 735 588S712 555 731 543Z" fill="#dce4cf"/>
+  </g>
+
+  <text x="105" y="285" class="small">EUROPEAN SIDE</text>
+  <text x="790" y="304" class="small">ASIAN SIDE</text>
+  <text x="307" y="622" class="water-label" text-anchor="middle">MARMARA SEA</text>
+  <text x="673" y="260" class="water-label" text-anchor="middle" transform="rotate(-69 673 260)">BOSPHORUS</text>
+  <text x="302" y="375" class="water-label" text-anchor="middle" font-size="12" style="font-size:12px;letter-spacing:1.6px" transform="rotate(36 302 375)">GOLDEN HORN</text>
+
+  <!-- Labels with leaders keep the close Karaköy/Galata pair readable. -->
+  <g>
+    <circle class="anchor" cx="386.7" cy="473.3" r="3.4"/>
+    <text class="district" x="373" y="463" text-anchor="end">Sultanahmet</text>
+
+    <circle class="anchor" cx="390" cy="416.7" r="3.4"/>
+    <path class="leader" d="M390 417L419 431"/>
+    <text class="district" x="423" y="436">Karaköy</text>
+
+    <circle class="anchor" cx="380" cy="413.3" r="3.4"/>
+    <path class="leader" d="M380 412L391 387"/>
+    <text class="district" x="395" y="382">Galata</text>
+
+    <circle class="anchor" cx="483.3" cy="356.7" r="3.4"/>
+    <text class="district" x="473" y="353" text-anchor="end">Beşiktaş</text>
+
+    <circle class="anchor" cx="556.7" cy="533.3" r="3.4"/>
+    <text class="district" x="570" y="538">Kadıköy</text>
+
+    <circle class="anchor" cx="516.7" cy="413.3" r="3.4"/>
+    <text class="district" x="532" y="423">Üsküdar</text>
+
+    <circle class="anchor" cx="293.3" cy="400" r="3.4"/>
+    <text class="district" x="278" y="411" text-anchor="end">Balat</text>
+
+    <circle class="anchor" cx="423.3" cy="300" r="3.4"/>
+    <text class="district" x="436" y="306">Şişli</text>
+  </g>
+
+  <g transform="translate(43 42)">
+    <path d="M0 20V0M-5 7L0 0 5 7" fill="none" stroke="#96a48e" stroke-width="1.6" stroke-linecap="round"/>
+    <text class="small" x="0" y="-9" text-anchor="middle">N</text>
+  </g>
+  <text x="28" y="680" class="small" style="font-size:10px;fill:#78939a;letter-spacing:1.2px">SCHEMATIC MAP · NOT FOR STREET NAVIGATION</text>
+</svg>
