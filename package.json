@@ -1,0 +1,33 @@
+{
+  "name": "travelbuddy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "export:preview": "npm run build && node scripts/export-preview.mjs",
+    "test": "vitest run",
+    "dev:ui": "vite --host 0.0.0.0",
+    "venue:server": "node --use-env-proxy server/index.mjs",
+    "venue:refresh": "node --use-env-proxy scripts/refresh-venue-data.mjs",
+    "test:venues": "node --test server/*.check.mjs"
+  },
+  "dependencies": {
+    "@types/leaflet": "^1.9.20",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.3",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.5",
+    "vitest": "^3.0.5"
+  }
+}

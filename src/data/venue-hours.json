@@ -1,0 +1,214 @@
+{
+  "blue-mosque": {
+    "status": "unverified"
+  },
+  "basilica-cistern": {
+    "status": "unverified"
+  },
+  "hagia-sophia": {
+    "status": "unverified"
+  },
+  "topkapi-palace": {
+    "status": "unverified"
+  },
+  "grand-bazaar": {
+    "status": "unverified"
+  },
+  "hippodrome": {
+    "status": "unverified"
+  },
+  "gulhane-park": {
+    "status": "unverified"
+  },
+  "archaeology-museums": {
+    "status": "unverified"
+  },
+  "spice-bazaar": {
+    "status": "unverified"
+  },
+  "galata-bridge": {
+    "status": "unverified"
+  },
+  "karakoy": {
+    "status": "unverified"
+  },
+  "galata-tower": {
+    "status": "unverified"
+  },
+  "istiklal": {
+    "status": "unverified"
+  },
+  "pera-museum": {
+    "status": "verified",
+    "windows": [
+      {
+        "weekdays": [
+          2,
+          3,
+          4,
+          6
+        ],
+        "open": "10:00",
+        "close": "19:00"
+      },
+      {
+        "weekdays": [
+          5
+        ],
+        "open": "10:00",
+        "close": "22:00"
+      },
+      {
+        "weekdays": [
+          0
+        ],
+        "open": "12:00",
+        "close": "18:00"
+      }
+    ],
+    "checkedAt": "2026-10-08T12:08:53.211Z",
+    "sourceUrl": "https://www.peramuseum.org/Home/Visit"
+  },
+  "taksim-square": {
+    "status": "unverified"
+  },
+  "istanbul-modern": {
+    "status": "verified",
+    "windows": [
+      {
+        "weekdays": [
+          2,
+          3,
+          4,
+          6,
+          0
+        ],
+        "open": "10:00",
+        "close": "18:00"
+      },
+      {
+        "weekdays": [
+          5
+        ],
+        "open": "10:00",
+        "close": "20:00"
+      }
+    ],
+    "checkedAt": "2026-10-08T12:08:53.211Z",
+    "sourceUrl": "https://www.istanbulmodern.org/en/visit/museum"
+  },
+  "kadikoy-market": {
+    "status": "unverified"
+  },
+  "bahariye-street": {
+    "status": "unverified"
+  },
+  "moda": {
+    "status": "unverified"
+  },
+  "sureyya-opera": {
+    "status": "unverified"
+  },
+  "moda-pier": {
+    "status": "unverified"
+  },
+  "fenerbahce-park": {
+    "status": "unverified"
+  },
+  "haydarpasa-viewpoint": {
+    "status": "unverified"
+  },
+  "yogurtcu-park": {
+    "status": "unverified"
+  },
+  "dolmabahce-palace": {
+    "status": "unverified"
+  },
+  "besiktas-market": {
+    "status": "unverified"
+  },
+  "yildiz-park": {
+    "status": "unverified"
+  },
+  "ortakoy": {
+    "status": "unverified"
+  },
+  "arnavutkoy": {
+    "status": "unverified"
+  },
+  "bebek-park": {
+    "status": "unverified"
+  },
+  "rumeli-fortress-view": {
+    "status": "unverified"
+  },
+  "naval-museum": {
+    "status": "unverified"
+  },
+  "chora-mosque": {
+    "status": "unverified"
+  },
+  "balat": {
+    "status": "unverified"
+  },
+  "fener": {
+    "status": "unverified"
+  },
+  "suleymaniye": {
+    "status": "unverified"
+  },
+  "rahmi-koc-museum": {
+    "status": "unverified"
+  },
+  "pierre-loti": {
+    "status": "unverified"
+  },
+  "eyup-sultan-mosque": {
+    "status": "unverified"
+  },
+  "uskudar-waterfront": {
+    "status": "unverified"
+  },
+  "mihrimah-sultan-mosque": {
+    "status": "unverified"
+  },
+  "kuzguncuk": {
+    "status": "unverified"
+  },
+  "beylerbeyi-palace": {
+    "status": "unverified"
+  },
+  "salacak": {
+    "status": "unverified"
+  },
+  "fethi-pasa-grove": {
+    "status": "unverified"
+  },
+  "valide-atikk": {
+    "status": "unverified"
+  },
+  "buyukada-pier": {
+    "status": "unverified"
+  },
+  "buyukada-mansions": {
+    "status": "unverified"
+  },
+  "buyukada-waterfront": {
+    "status": "unverified"
+  },
+  "dilburnu": {
+    "status": "unverified"
+  },
+  "aya-yorgi": {
+    "status": "unverified"
+  },
+  "sultanahmet-square": {
+    "status": "unverified"
+  },
+  "sirkeci-waterfront": {
+    "status": "unverified"
+  },
+  "balat-waterfront": {
+    "status": "unverified"
+  }
+}
